@@ -14,6 +14,26 @@ body {
   color: #1E293B; /* Optional: Invert text color for contrast */
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;  /* stop horizontal scroll */
+}
+
+/* Any element accidentally overflowing */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block;
+}
+
+
 
 /* App-style underline animation for nav links */
 .nav-link {
