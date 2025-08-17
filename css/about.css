@@ -540,9 +540,6 @@ iframe {
 }
 
 
-
-
-
 .journey-gallery {
   width: 100%;
   overflow: hidden;
@@ -551,9 +548,9 @@ iframe {
 }
 
 .image-track {
-  display: inline-block;               /* keep images in single row */
+  display: flex;               /* keep images in single row */
   white-space: nowrap;                 /* prevent wrapping */
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 
 .snapheading {
@@ -565,40 +562,31 @@ iframe {
 }
 
 .image-track img {
+  flex: 0 0 auto;
   width: 300px;
   height: 250px;
   object-fit: cover;
   margin-right: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  transition: transform 0.3s ease;
-  display: inline-block;               /* important: line up horizontally */
 }
 
-.image-track img:hover {
-  transform: scale(1.05);
-}
-
-/* Animation keyframes */
 @keyframes scroll-left {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%); /* full width scroll */
   }
 }
 
-/* ✅ Mobile: same animation, no stacking */
+/* Mobile */
 @media (max-width: 768px) {
   .image-track {
-    display: inline-block;
-    white-space: nowrap;               /* still horizontal */
-    animation: scroll-left 40s linear infinite; /* slightly faster */
+    animation: scroll-left 15s linear infinite;
   }
-
   .image-track img {
-    width: 250px;                      /* smaller but still inline */
+    width: 250px;
     height: 200px;
   }
 }
