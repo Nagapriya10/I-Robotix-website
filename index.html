@@ -245,7 +245,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/AI.jpg" alt="Artificial Intelligence">
           <h3>Artificial Intelligence</h3>
@@ -254,7 +254,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="130">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/fullstack.webp" alt="Full Stack Bootcamp">
           <h3>Full Stack Bootcamp</h3>
@@ -263,7 +263,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="130">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/Drone-Training-Course.jpg" alt="Drone Technology">
           <h3>Drone Technology</h3>
@@ -272,7 +272,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="140">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up">
         <div class="course-card">
           <img src="assets/uiux.webp" alt="UI/UX">
           <h3>UI & UX Design</h3>
@@ -281,7 +281,7 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="140">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/CLOUD-COMPUTING.webp" alt="Cloud">
           <h3>Cloud Computing</h3>
@@ -290,7 +290,7 @@
       </div>
 
       <!-- Card 7 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="140">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/tallyprime.webp" alt="Tally">
           <h3>Tally Prime</h3>
@@ -299,7 +299,7 @@
       </div>
 
       <!-- Card 8 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/Digital-Marketing_1.jpg" alt="Digital Marketing">
           <h3>Digital Marketing & SEO</h3>
@@ -308,7 +308,7 @@
       </div>
 
       <!-- Card 9 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="130">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/english-course.jpg" alt="English Club">
           <h3>English Club</h3>
@@ -317,7 +317,7 @@
       </div>
 
       <!-- Card 10 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/bi.webp" alt="Business Intelligence">
           <h3>Business Intelligence</h3>
@@ -326,7 +326,7 @@
       </div>
 
       <!-- Card 11 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="110">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/flim.webp" alt="AI Film Making">
           <h3>AI Film Making</h3>
@@ -335,7 +335,7 @@
       </div>
 
       <!-- Card 12 -->
-      <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-4 col-lg-3" data-aos="fade-up" >
         <div class="course-card">
           <img src="assets/3d.png" alt="3D Printing">
           <h3>3D Printing</h3>
@@ -355,11 +355,12 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
-    duration: 900,   // smooth slow animation (1.2 sec)
-    easing: 'ease-in-out', // smooth easing
-    once: false,       // repeat on scroll
-    mirror: true       // animate on scroll up also
-  });
+  duration: 0,     // a bit smoother
+  easing: 'ease-in-out',
+  once: true,        // animate only first time
+  mirror: false,     // don’t replay on scroll up
+  delay: 0,          // no delay, all show immediately
+});
 </script>
 
 
