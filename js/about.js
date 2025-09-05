@@ -203,6 +203,11 @@ document.addEventListener("DOMContentLoaded", function () {
     { id: "zTaHz9WhiaM", title: "IRobotix", desc: "Next-gen smart robotics with hands-on coding" },
     { id: "sHqqvfn3c98", title: "IRobotix", desc: "Founder’s journey — from idea to innovation 💡" },
     { id: "dWif4047W-U", title: "IRobotix", desc: "Inspiring story of our founder’s path in robotics 🚀" },
+    { id: "7h9Ene75DR0", title: "IRobotix", desc: "Transforming complex ideas into simple robotic solutions." },
+    { id: "ZqLCpZKbjzs", title: "IRobotix", desc: "Empowering the future with intelligent automation. " },
+    { id: "RXu-9ATy8pY", title: "IRobotix", desc: " A journey fueled by passion, persistence, and possibilities." },
+    { id: "RlDDMOIRaIM", title: "IRobotix", desc: "Innovating today for a smarter tomorrow." }
+
   ];
 
   const container = document.querySelector(".video-grid");

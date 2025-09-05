@@ -507,7 +507,9 @@ iframe {
 .contact-desc {
   color: #b5c9d6;
   margin-bottom: 10px;
+  line-height: 1.8;  /* increases spacing between lines */
 }
+
 
 
 /* Force space between left and right */
